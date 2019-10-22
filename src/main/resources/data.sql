@@ -1,0 +1,1 @@
+Insert into users(First_name,last_name,birth_date,phone_no) Values ('user','userski',PARSEDATETIME('26 Jul 2019','dd MMM yyyy','en'),987654321);

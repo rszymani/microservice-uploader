@@ -1,0 +1,597 @@
+2019-10-22 21:43:57.445  INFO 30147 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 30147 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 21:43:57.544  INFO 30147 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 21:44:15.179  INFO 30147 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 21:44:15.539  INFO 30147 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 21:44:15.541  INFO 30147 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 21:44:16.662  INFO 30147 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 21:44:16.664  INFO 30147 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 17611 ms
+2019-10-22 21:44:17.553  INFO 30147 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 21:44:20.065  INFO 30147 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 21:44:20.674  INFO 30147 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 21:44:25.723  INFO 30147 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 21:44:28.785  INFO 30147 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 21:44:28.804  INFO 30147 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 40.313 seconds (JVM running for 45.085)
+2019-10-22 22:11:03.792  INFO 30147 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:11:03.801  INFO 30147 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 22:11:03.881  INFO 30147 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 22:11:34.819  INFO 30772 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 30772 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 22:11:34.934  INFO 30772 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 22:12:00.111  INFO 30772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 22:12:00.264  INFO 30772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 22:12:00.267  INFO 30772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 22:12:01.568  INFO 30772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 22:12:01.572  INFO 30772 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 24932 ms
+2019-10-22 22:12:03.005  INFO 30772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 22:12:07.796  INFO 30772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 22:12:08.570  INFO 30772 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 22:12:15.182  INFO 30772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:12:21.168  INFO 30772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 22:12:21.331  INFO 30772 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 56.268 seconds (JVM running for 63.257)
+2019-10-22 22:12:41.071  INFO 30772 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 22:12:41.090  INFO 30772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 22:12:41.180  INFO 30772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 58 ms
+2019-10-22 22:12:42.075  WARN 30772 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:12:42.078  WARN 30772 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:12:44.137 ERROR 30772 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]] with root cause
+
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:457) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.index.BaseIndex.getDuplicateKeyException(BaseIndex.java:103) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:220) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:196) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:546) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:180) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.dml.Insert.update(Insert.java:132) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Command.executeUpdate(Command.java:267) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-3.4.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.1.jar:na]
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:867) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at rszymani.api.users.JdbcUserRepository.save(JdbcUserRepository.java:30) ~[classes/:na]
+	at rszymani.api.users.JdbcUserRepository$$FastClassBySpringCGLIB$$9a30e269.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at rszymani.api.users.JdbcUserRepository$$EnhancerBySpringCGLIB$$33a29b25.save(<generated>) ~[classes/:na]
+	at rszymani.api.users.UsersController.saveUsers(UsersController.java:33) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_222]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+
+2019-10-22 22:21:58.828  INFO 30772 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:21:58.836  INFO 30772 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 22:21:58.879  INFO 30772 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 22:22:57.799  INFO 31146 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 31146 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 22:22:57.858  INFO 31146 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 22:23:15.366  INFO 31146 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 22:23:15.479  INFO 31146 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 22:23:15.481  INFO 31146 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 22:23:16.425  INFO 31146 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 22:23:16.428  INFO 31146 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 17797 ms
+2019-10-22 22:23:17.400  INFO 31146 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 22:23:20.224  INFO 31146 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 22:23:20.999  INFO 31146 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 22:23:25.091  INFO 31146 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:23:27.551  INFO 31146 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 22:23:27.608  INFO 31146 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 38.946 seconds (JVM running for 43.58)
+2019-10-22 22:23:56.349  INFO 31146 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 22:23:56.355  INFO 31146 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 22:23:56.454  INFO 31146 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 97 ms
+2019-10-22 22:23:57.384  WARN 31146 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:23:57.386  WARN 31146 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:23:59.002 ERROR 31146 --- [http-nio-8080-exec-1] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:30:24.168  WARN 31146 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2019-10-22 22:34:08.293  WARN 31146 --- [http-nio-8080-exec-4] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:34:08.296  WARN 31146 --- [http-nio-8080-exec-4] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:34:08.300  WARN 31146 --- [http-nio-8080-exec-4] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:34:08.329 ERROR 31146 --- [http-nio-8080-exec-4] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 2"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 2"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:34:08.333 ERROR 31146 --- [http-nio-8080-exec-4] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 3"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 3"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:34:08.337 ERROR 31146 --- [http-nio-8080-exec-4] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 4"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 4"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:34:08.341 ERROR 31146 --- [http-nio-8080-exec-4] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:34:08.349 ERROR 31146 --- [http-nio-8080-exec-4] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:35:23.333  INFO 31146 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:35:23.350  INFO 31146 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 22:35:23.367  INFO 31146 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 22:35:50.062  INFO 31538 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 31538 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 22:35:50.157  INFO 31538 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 22:36:06.444  INFO 31538 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 22:36:06.545  INFO 31538 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 22:36:06.547  INFO 31538 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 22:36:07.328  INFO 31538 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 22:36:07.357  INFO 31538 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 15786 ms
+2019-10-22 22:36:08.095  INFO 31538 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 22:36:10.601  INFO 31538 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 22:36:11.219  INFO 31538 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 22:36:14.916  INFO 31538 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:36:17.672  INFO 31538 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 22:36:17.717  INFO 31538 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 36.764 seconds (JVM running for 41.389)
+2019-10-22 22:36:28.429  INFO 31538 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 22:36:28.468  INFO 31538 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 22:36:28.632  INFO 31538 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 162 ms
+2019-10-22 22:39:44.896  INFO 31538 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:39:44.932  INFO 31538 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 22:39:44.991  INFO 31538 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 22:40:13.211  INFO 31692 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 31692 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 22:40:13.318  INFO 31692 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 22:40:30.920  INFO 31692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 22:40:31.058  INFO 31692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 22:40:31.061  INFO 31692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 22:40:31.888  INFO 31692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 22:40:31.890  INFO 31692 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 17068 ms
+2019-10-22 22:40:32.880  INFO 31692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 22:40:35.211  INFO 31692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 22:40:35.684  INFO 31692 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 22:40:39.014  INFO 31692 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:40:42.292  INFO 31692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 22:40:42.442  INFO 31692 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 37.481 seconds (JVM running for 43.01)
+2019-10-22 22:40:43.962  INFO 31692 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 22:40:43.998  INFO 31692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 22:40:44.173  INFO 31692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 173 ms
+2019-10-22 22:40:45.980 ERROR 31692 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.json.JSONException: Expected a ':' after a key at 4 [character 5 line 1]] with root cause
+
+org.json.JSONException: Expected a ':' after a key at 4 [character 5 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507) ~[json-20190722.jar:na]
+	at org.json.JSONObject.<init>(JSONObject.java:240) ~[json-20190722.jar:na]
+	at org.json.JSONObject.<init>(JSONObject.java:406) ~[json-20190722.jar:na]
+	at rszymani.api.users.UsersController.allUsers(UsersController.java:52) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_222]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+
+2019-10-22 22:41:22.225  INFO 31692 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:41:22.266  INFO 31692 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 22:41:22.274  INFO 31692 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 22:42:17.191  INFO 31824 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 31824 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 22:42:17.283  INFO 31824 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 22:42:32.431  INFO 31824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 22:42:32.542  INFO 31824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 22:42:32.544  INFO 31824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 22:42:33.263  INFO 31824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 22:42:33.265  INFO 31824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 14612 ms
+2019-10-22 22:42:34.139  INFO 31824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 22:42:36.538  INFO 31824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 22:42:37.113  INFO 31824 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 22:42:40.187  INFO 31824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:42:42.726  INFO 31824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 22:42:42.774  INFO 31824 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 34.118 seconds (JVM running for 38.955)
+2019-10-22 22:42:56.343  INFO 31824 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 22:42:56.352  INFO 31824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 22:42:56.563  INFO 31824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 209 ms
+2019-10-22 22:43:09.098  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Stefan;Testowy;1988.11.11;600700800
+2019-10-22 22:43:09.100  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Maria;Ziółko;1999.1.1;555666777;
+2019-10-22 22:43:09.127  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : ;;;
+2019-10-22 22:43:09.128  WARN 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:43:09.130  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Jolanta;Magia;2000.02.04;666000111
+2019-10-22 22:43:09.131  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : 
+2019-10-22 22:43:09.132  WARN 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:43:09.133  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         :  marian;kowalewski;1950.10.01;670540120
+2019-10-22 22:43:09.135  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Zygmunt;	Stefanowicz;1991.06.01;-
+2019-10-22 22:43:09.136  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Ernest;Gąbka;1991.06.01;
+2019-10-22 22:43:09.138  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Elżbieta;Żółw;1988.03.03;670540120
+2019-10-22 22:43:09.139  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Elżbieta;Żółw;1988.33.03;670540121
+2019-10-22 22:43:09.140  INFO 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : 
+2019-10-22 22:43:09.141  WARN 31824 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:43:10.501 ERROR 31824 --- [http-nio-8080-exec-2] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:47:24.367  INFO 31824 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:47:24.394  INFO 31824 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 22:47:24.399  INFO 31824 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 22:47:51.439  INFO 32018 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 32018 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 22:47:51.491  INFO 32018 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 22:48:07.871  INFO 32018 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 22:48:07.988  INFO 32018 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 22:48:07.990  INFO 32018 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 22:48:08.855  INFO 32018 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 22:48:08.857  INFO 32018 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 16165 ms
+2019-10-22 22:48:09.641  INFO 32018 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 22:48:12.255  INFO 32018 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 22:48:13.037  INFO 32018 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 22:48:16.668  INFO 32018 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 22:48:19.436  INFO 32018 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 22:48:19.479  INFO 32018 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 36.353 seconds (JVM running for 41.334)
+2019-10-22 22:49:27.078  INFO 32018 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 22:49:27.086  INFO 32018 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 22:49:27.186  INFO 32018 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 99 ms
+2019-10-22 22:49:28.163  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: Stefan;Testowy;1988.11.11;600700800
+2019-10-22 22:49:28.167  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: Maria;Ziółko;1999.1.1;555666777;
+2019-10-22 22:49:28.169  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: ;;;
+2019-10-22 22:49:28.171  WARN 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:49:28.172  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: Jolanta;Magia;2000.02.04;666000111
+2019-10-22 22:49:28.174  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 22:49:28.175  WARN 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:49:28.176  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line:  marian;kowalewski;1950.10.01;670540120
+2019-10-22 22:49:28.178  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: Zygmunt;	Stefanowicz;1991.06.01;-
+2019-10-22 22:49:28.179  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: Ernest;Gąbka;1991.06.01;
+2019-10-22 22:49:28.206  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.03.03;670540120
+2019-10-22 22:49:28.208  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.33.03;670540121
+2019-10-22 22:49:28.210  INFO 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 22:49:28.212  WARN 32018 --- [http-nio-8080-exec-1] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:49:29.676 ERROR 32018 --- [http-nio-8080-exec-1] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:51:29.132  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: Stefan;Testowy;1988.11.11;600700800
+2019-10-22 22:51:29.135  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: Maria;Ziółko;1999.1.1;555666777;
+2019-10-22 22:51:29.137  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: ;;;
+2019-10-22 22:51:29.138  WARN 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:51:29.139  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: Jolanta;Magia;2000.02.04;666000111
+2019-10-22 22:51:29.141  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 22:51:29.142  WARN 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:51:29.142  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line:  marian;kowalewski;1950.10.01;670540120
+2019-10-22 22:51:29.143  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: Zygmunt;	Stefanowicz;1991.06.01;-
+2019-10-22 22:51:29.145  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: Ernest;Gąbka;1991.06.01;
+2019-10-22 22:51:29.146  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.03.03;670540120
+2019-10-22 22:51:29.147  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.10.15;670540121
+2019-10-22 22:51:29.148  INFO 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 22:51:29.149  WARN 32018 --- [http-nio-8080-exec-5] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:51:29.152 ERROR 32018 --- [http-nio-8080-exec-5] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 2"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 2"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:51:29.156 ERROR 32018 --- [http-nio-8080-exec-5] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 3"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 3"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:51:29.160 ERROR 32018 --- [http-nio-8080-exec-5] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 4"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 4"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:51:29.163 ERROR 32018 --- [http-nio-8080-exec-5] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:51:29.171 ERROR 32018 --- [http-nio-8080-exec-5] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:51:29.175 ERROR 32018 --- [http-nio-8080-exec-5] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 9"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 9"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:53:40.224  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: Stefan;Testowy;1988.11.11;600700800
+2019-10-22 22:53:40.227  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: Maria;Ziółko;1999.1.1;555666777;
+2019-10-22 22:53:40.229  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: ;;;
+2019-10-22 22:53:40.230  WARN 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:53:40.231  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: Jolanta;Magia;2000.02.04;666000111
+2019-10-22 22:53:40.234  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 22:53:40.235  WARN 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:53:40.236  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line:  marian;kowalewski;1950.10.01;670540120
+2019-10-22 22:53:40.238  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: Zygmunt;	Stefanowicz;1991.06.01;-
+2019-10-22 22:53:40.240  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: Ernest;Gąbka;1991.06.01;
+2019-10-22 22:53:40.242  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.03.03;670540120
+2019-10-22 22:53:40.243  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.20.15;670540121
+2019-10-22 22:53:40.251  INFO 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 22:53:40.252  WARN 32018 --- [http-nio-8080-exec-7] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:53:40.257 ERROR 32018 --- [http-nio-8080-exec-7] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 2"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 2"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:53:40.261 ERROR 32018 --- [http-nio-8080-exec-7] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 3"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 3"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:53:40.264 ERROR 32018 --- [http-nio-8080-exec-7] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 4"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 4"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:53:40.267 ERROR 32018 --- [http-nio-8080-exec-7] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:53:40.273 ERROR 32018 --- [http-nio-8080-exec-7] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:53:40.302 ERROR 32018 --- [http-nio-8080-exec-7] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 9"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 9"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:54:19.012  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: Stefan;Testowy;1988.11.11;600700800
+2019-10-22 22:54:19.016  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: Maria;Ziółko;1999.1.1;555666777;
+2019-10-22 22:54:19.017  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: ;;;
+2019-10-22 22:54:19.018  WARN 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:54:19.019  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: Jolanta;Magia;2000.02.04;666000111
+2019-10-22 22:54:19.020  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 22:54:19.026  WARN 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:54:19.027  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line:  marian;kowalewski;1950.10.01;670540120
+2019-10-22 22:54:19.028  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: Zygmunt;	Stefanowicz;1991.06.01;-
+2019-10-22 22:54:19.029  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: Ernest;Gąbka;1991.06.01;
+2019-10-22 22:54:19.031  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.03.03;670540120
+2019-10-22 22:54:19.032  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.20.15;670540126
+2019-10-22 22:54:19.033  INFO 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 22:54:19.033  WARN 32018 --- [http-nio-8080-exec-9] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 22:54:19.037 ERROR 32018 --- [http-nio-8080-exec-9] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 2"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 2"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:54:19.039 ERROR 32018 --- [http-nio-8080-exec-9] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 3"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 3"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:54:19.042 ERROR 32018 --- [http-nio-8080-exec-9] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 4"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 4"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:54:19.047 ERROR 32018 --- [http-nio-8080-exec-9] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 22:54:19.053 ERROR 32018 --- [http-nio-8080-exec-9] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 23:01:36.781  INFO 32018 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:01:36.785  INFO 32018 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 23:01:36.836  INFO 32018 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 23:02:06.642  INFO 32570 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 32570 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 23:02:06.732  INFO 32570 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 23:02:22.917  INFO 32570 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 23:02:23.027  INFO 32570 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 23:02:23.029  INFO 32570 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 23:02:23.760  INFO 32570 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 23:02:23.787  INFO 32570 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 15703 ms
+2019-10-22 23:02:24.526  INFO 32570 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 23:02:26.961  INFO 32570 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 23:02:27.537  INFO 32570 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 23:02:31.922  INFO 32570 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:02:34.344  INFO 32570 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 23:02:34.364  INFO 32570 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 36.655 seconds (JVM running for 41.401)
+2019-10-22 23:02:45.335  INFO 32570 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 23:02:45.388  INFO 32570 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 23:02:45.644  INFO 32570 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 251 ms
+2019-10-22 23:05:18.320  INFO 32570 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:05:18.326  INFO 32570 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 23:05:18.345  INFO 32570 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 23:05:44.778  INFO 32761 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 32761 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 23:05:44.841  INFO 32761 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 23:06:01.525  INFO 32761 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 23:06:01.627  INFO 32761 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 23:06:01.629  INFO 32761 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 23:06:02.299  INFO 32761 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 23:06:02.302  INFO 32761 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 16105 ms
+2019-10-22 23:06:03.093  INFO 32761 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 23:06:05.739  INFO 32761 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 23:06:06.242  INFO 32761 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 23:06:09.783  INFO 32761 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:06:12.498  INFO 32761 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 23:06:12.545  INFO 32761 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 37.014 seconds (JVM running for 41.444)
+2019-10-22 23:06:25.453  INFO 32761 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 23:06:25.501  INFO 32761 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 23:06:25.799  INFO 32761 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 296 ms
+2019-10-22 23:06:33.770  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Stefan;Testowy;1988.11.11;600700800
+2019-10-22 23:06:33.774  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Maria;Ziółko;1999.1.1;555666777;
+2019-10-22 23:06:33.801  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: ;;;
+2019-10-22 23:06:33.803  WARN 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 23:06:33.804  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Jolanta;Magia;2000.02.04;666000111
+2019-10-22 23:06:33.806  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 23:06:33.808  WARN 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 23:06:33.809  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line:  marian;kowalewski;1950.10.01;670540120
+2019-10-22 23:06:33.811  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Zygmunt;	Stefanowicz;1991.06.01;-
+2019-10-22 23:06:33.813  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Ernest;Gąbka;1991.06.01;
+2019-10-22 23:06:33.815  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.03.03;670540120
+2019-10-22 23:06:33.817  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.20.15;670540126
+2019-10-22 23:06:33.819  INFO 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 23:06:33.820  WARN 32761 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 23:06:35.427 ERROR 32761 --- [http-nio-8080-exec-2] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 23:12:07.081  INFO 32761 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:12:07.087  INFO 32761 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 23:12:07.138  INFO 32761 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 23:12:40.726  INFO 552 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 552 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 23:12:40.835  INFO 552 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 23:13:00.705  INFO 552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 23:13:00.840  INFO 552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 23:13:00.842  INFO 552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 23:13:01.621  INFO 552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 23:13:01.624  INFO 552 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 19010 ms
+2019-10-22 23:13:02.424  INFO 552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 23:13:04.862  INFO 552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 23:13:05.438  INFO 552 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 23:13:09.630  INFO 552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:13:12.074  INFO 552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 23:13:12.094  INFO 552 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 41.257 seconds (JVM running for 45.676)
+2019-10-22 23:13:27.886  INFO 552 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 23:13:27.891  INFO 552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 23:13:28.054  INFO 552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 158 ms
+2019-10-22 23:16:47.298  INFO 552 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:16:47.303  INFO 552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 23:16:47.315  INFO 552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 23:17:16.951  INFO 729 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 729 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 23:17:17.003  INFO 729 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 23:17:32.650  INFO 729 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 23:17:32.756  INFO 729 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 23:17:32.758  INFO 729 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 23:17:33.748  INFO 729 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 23:17:33.759  INFO 729 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 15358 ms
+2019-10-22 23:17:35.303  INFO 729 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 23:17:40.391  INFO 729 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 23:17:41.859  INFO 729 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 23:17:45.856  INFO 729 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:17:49.238  INFO 729 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 23:17:49.338  INFO 729 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 42.995 seconds (JVM running for 48.463)
+2019-10-22 23:17:53.364  INFO 729 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 23:17:53.399  INFO 729 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 23:17:53.552  INFO 729 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 152 ms
+2019-10-22 23:18:39.837  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: Stefan;Testowy;1988.11.11;600700800
+2019-10-22 23:18:39.843  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: Maria;Ziółko;1999.1.1;555666777;
+2019-10-22 23:18:39.846  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: ;;;
+2019-10-22 23:18:39.847  WARN 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 23:18:39.849  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: Jolanta;Magia;2000.02.04;666000111
+2019-10-22 23:18:39.850  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 23:18:39.852  WARN 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 23:18:39.877  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line:  marian;kowalewski;1950.10.01;670540120
+2019-10-22 23:18:39.880  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: Zygmunt;	Stefanowicz;1991.06.01;-
+2019-10-22 23:18:39.882  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: Ernest;Gąbka;1991.06.01;
+2019-10-22 23:18:39.884  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.03.03;670540120
+2019-10-22 23:18:39.886  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.20.15;670540126
+2019-10-22 23:18:39.888  INFO 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 23:18:39.889  WARN 729 --- [http-nio-8080-exec-3] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 23:18:41.879 ERROR 729 --- [http-nio-8080-exec-3] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 23:21:33.428  INFO 729 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:21:33.459  INFO 729 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 23:21:33.478  INFO 729 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 23:22:00.778  INFO 936 --- [main] r.api.users.FileloaderApplication        : Starting FileloaderApplication on rafal-HP-ProBook-6460b with PID 936 (/media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader/target/classes started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 23:22:00.865  INFO 936 --- [main] r.api.users.FileloaderApplication        : No active profile set, falling back to default profiles: default
+2019-10-22 23:22:19.169  INFO 936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 23:22:19.222  INFO 936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 23:22:19.222  INFO 936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 23:22:20.371  INFO 936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 23:22:20.380  INFO 936 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 18058 ms
+2019-10-22 23:22:21.451  INFO 936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 23:22:23.348  INFO 936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 23:22:24.124  INFO 936 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 23:22:27.706  INFO 936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:22:30.038  INFO 936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 23:22:30.084  INFO 936 --- [main] r.api.users.FileloaderApplication        : Started FileloaderApplication in 39.525 seconds (JVM running for 44.495)
+2019-10-22 23:22:46.850  INFO 936 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 23:22:46.879  INFO 936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 23:22:46.956  INFO 936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 75 ms
+2019-10-22 23:23:01.925  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Stefan;Testowy;1988.11.11;600700800
+2019-10-22 23:23:01.928  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Maria;Ziółko;1999.1.1;555666777;
+2019-10-22 23:23:01.931  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: ;;;
+2019-10-22 23:23:01.932  WARN 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 23:23:01.958  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Jolanta;Magia;2000.02.04;666000111
+2019-10-22 23:23:01.961  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 23:23:01.962  WARN 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 23:23:01.963  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line:  marian;kowalewski;1950.10.01;670540120
+2019-10-22 23:23:01.965  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Zygmunt;	Stefanowicz;1991.06.01;-
+2019-10-22 23:23:01.967  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Ernest;Gąbka;1991.06.01;
+2019-10-22 23:23:01.969  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.03.03;670540120
+2019-10-22 23:23:01.971  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: Elżbieta;Żółw;1988.20.15;670540126
+2019-10-22 23:23:01.973  INFO 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : Trying to parse line: 
+2019-10-22 23:23:01.974  WARN 936 --- [http-nio-8080-exec-2] rszymani.api.users.ParserService         : FirstName cannot be null, not adding to DB
+2019-10-22 23:23:03.010 ERROR 936 --- [http-nio-8080-exec-2] rszymani.api.users.UsersController       : PreparedStatementCallback; SQL [INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?)]; Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_4 ON PUBLIC.USERS(PHONE_NO) VALUES 5"; SQL statement:
+INSERT INTO users (First_name,last_name,birth_date,phone_no) VALUES (?, ?, ?, ?) [23505-199]
+2019-10-22 23:23:44.408  INFO 936 --- [http-nio-8080-exec-5] rszymani.api.users.UsersController       : Deleted user with id :5
+2019-10-22 23:29:12.605  INFO 936 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:29:12.611  INFO 936 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 23:29:12.654  INFO 936 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-22 23:30:32.711  WARN 1354 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/rafal/.m2/repository/org/json/json/20190722/json-20190722.jar!/org/json/JSONObject.class
+	jar:file:/home/rafal/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-10-22 23:30:33.063  INFO 1354 --- [main] r.api.users.FileloaderApplicationTests   : Starting FileloaderApplicationTests on rafal-HP-ProBook-6460b with PID 1354 (started by rafal in /media/rafal/6C820CD2820CA2A61/rafal/RAFAL/Programowanie/java/fileloader)
+2019-10-22 23:30:33.071  INFO 1354 --- [main] r.api.users.FileloaderApplicationTests   : No active profile set, falling back to default profiles: default
+2019-10-22 23:30:48.413  INFO 1354 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 23:30:51.274  INFO 1354 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 23:31:00.738  INFO 1354 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:31:06.392  INFO 1354 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:usersdb'
+2019-10-22 23:31:08.886  INFO 1354 --- [main] r.api.users.FileloaderApplicationTests   : Started FileloaderApplicationTests in 40.269 seconds (JVM running for 51.528)
+2019-10-22 23:31:12.912  INFO 1354 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-22 23:31:12.994  INFO 1354 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-22 23:31:13.105  INFO 1354 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
